@@ -1,0 +1,112 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: #333;
+	color: white;
+	padding: 1em;
+  }
+  
+  header h1 {
+	margin: 0;
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+  }
+  
+  nav ul li {
+	float: left;
+  }
+  
+  nav ul li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 1em;
+	text-decoration: none;
+  }
+  
+  nav ul lia:hover {
+	background-color: #111;
+  }
+
+main {
+	display: flex;
+	justify-content: space-around;
+}
+
+aside ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+aside li {
+	margin-bottom: 10px;
+}
+
+aside a {
+	color: #333;
+	text-decoration: none;
+}
+
+aside a:hover {
+	text-decoration: underline;
+}
+
+section h2 {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+section form {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+section form input {
+	margin-right: 10px;
+}
+
+section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+section li {
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 20px;
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: center;
+}
+
+section img {
+	width: auto;
+	height: 100px;
+}
+
+section p {
+	margin: 0;
+}
+
+footer {
+	text-align: center;
+	padding: 20px;
+	background-color: #f1f1f1;
+}
+
+footer img {
+	width: 100%;
+	height: auto;
+}

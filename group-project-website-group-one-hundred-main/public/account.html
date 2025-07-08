@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="account.css">
+</head>
+<body>
+    <header>
+		<nav>
+            <ul>
+				<li><a href="index.html" data-lang="storefront">Storefront</a></li>
+                <li><a href="cart.html" data-lang="cart">Cart</a></li>
+                <li><a href="account.html" data-lang="account">Account</a></li>
+                <li><a href="language.html" data-lang="laguage">Language</a></li>
+                <li><a href="settings.html" data-lang="settings">Settings</a></li>
+                <li><a href="About.html" data-lang="About">About</a></li>
+			</ul>
+		</nav>
+		<h1>Account Login</h1>
+	</header>
+
+    <main>
+        <div class="container">
+            <h2>Account Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="login-username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="login-password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <a href="forgot_password.html">Forgot password?</a>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Login</button>
+                </div>
+            </form>
+            <div class="signup">
+                <p>Don't have an account? <a href="signup.html">Sign up</a></p>
+            </div>
+        </div>
+    </main>
+     <!-- Link your JavaScript file -->
+     <script src="account.js"></script>
+</body>
+</html>

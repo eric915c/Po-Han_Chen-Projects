@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="language.css">
+    <title>Language Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" data-lang="storefront">Storefront</a></li>
+                <li><a href="cart.html" data-lang="cart">Cart</a></li>
+                <li><a href="account.html" data-lang="account">Account</a></li>
+                <li><a href="language.html" data-lang="laguage">Language</a></li>
+                <li><a href="settings.html" data-lang="settings">Settings</a></li>
+                <li><a href="About.html" data-lang="About">About</a></li>
+            </ul>
+        </nav>
+        <h1 data-lang="language-page">Language Page</h1>
+    </header>
+
+    <main>
+        <h2 data-lang="select-language">Select Your Language</h2>
+        <div class="languages">
+            <div class="language-option">
+                <input type="radio" id="en" name="language" value="en">
+                <label for="en" data-lang="english">English</label>
+            </div>
+            <div class="language-option">
+                <input type="radio" id="zh-TW" name="language" value="zh-TW">
+                <label for="zh-TW" data-lang="chinese-traditional">繁體中文</label> 
+            </div>
+        </div>
+    </main>
+
+    <script src="language.js"></script>
+</body>
+</html>
