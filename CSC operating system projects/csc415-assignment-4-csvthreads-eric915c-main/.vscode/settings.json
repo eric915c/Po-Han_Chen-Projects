@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "string.h": "c",
+        "chen_pohan_hw4_csv.h": "c",
+        "stdlib.h": "c",
+        "ctype.h": "c"
+    }
+}

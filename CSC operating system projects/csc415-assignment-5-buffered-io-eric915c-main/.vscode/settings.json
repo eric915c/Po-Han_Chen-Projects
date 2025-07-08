@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "string.h": "c",
+        "fslowsmall.h": "c",
+        "stdlib.h": "c",
+        "unistd.h": "c"
+    }
+}
