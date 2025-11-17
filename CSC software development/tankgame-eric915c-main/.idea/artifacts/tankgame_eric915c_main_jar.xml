@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tankgame-eric915c-main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tankgame_eric915c_main_jar</output-path>
+    <root id="archive" name="tankgame-eric915c-main.jar">
+      <element id="module-output" name="tankgame-eric915c-main" />
+      <element id="dir-copy" path="$PROJECT_DIR$/image" />
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/resources" />
+    </root>
+  </artifact>
+</component>
